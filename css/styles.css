@@ -1,0 +1,200 @@
+body {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-style: normal;
+    font-family: 'Montserrat';
+    margin: 10px;
+    /* width: 1280px; */
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 105px;
+}
+
+.footer {
+    align-self: flex-end;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heroimage {
+    width: 589px;
+}
+
+.herotext {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    width: 479px;
+}
+
+.innercard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innercardcolumndrawchange {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.innercardcolumngreecycle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.innercardcolumnfcc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.innercardcolumnplanit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.cardcolumntext {
+    width: 200px;
+    padding-left: 20px;
+    padding-top: 45px;
+}
+
+.casestudybutton {
+    width: 150px;
+    height: 40px;
+    font-size: 19px;
+    border-radius: 10px;
+    background-color: #D1E5FB;
+    color: black;
+}
+
+.herotext h1 {
+    margin: 0;
+}
+
+.logo img {
+    width: 130px;
+    height: 130px;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.PageLinks {
+    font-size: 15px;
+    padding: 15px;
+}
+
+.card {
+    width: 450px;
+    height: 300px;
+    border-radius: 15px;
+    color: whitesmoke;
+}
+
+.content {
+    color: black;
+    font-style: normal;
+    font-family: 'Montserrat';
+    font-size: 20px;
+}
+
+.caseStudyGrid {
+    display: grid;
+    row-gap: 20px;
+    justify-items: center;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas: "drawchange greecycle" "FCCRedesign planIt";
+}
+
+.drawchangeCard {
+    grid-area: drawchange;
+    background-color: #323232;
+    font-style: normal;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    left: 45px;
+    width: 575.42px;
+    height: 369.27px;
+    border-radius: 15px;
+}
+
+.greecycleCard {
+    grid-area: greecycle;
+    background-color: #007B40;
+    font-style: normal;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    width: 575.42px;
+    height: 369.27px;
+    border-radius: 15px;
+    right: 45px;
+}
+
+.fCCCard {
+    grid-area: FCCRedesign;
+    background-color: #4d5b94;
+    font-style: normal;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    width: 575.42px;
+    height: 369.27px;
+    left: 45px;
+    border-radius: 15px;
+}
+
+.planItCard {
+    grid-area: planIt;
+    background-color: #310D3E;
+    font-style: normal;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    width: 575.42px;
+    height: 369.27px;
+    right: 45px;
+    border-radius: 15px;
+}
+
+.contactleft {
+    width: 500px;
+    height: 683px;
+    background-color: #D1E5FB;
+    left: 45px;
+}
+
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.heroimage {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.logo img {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
